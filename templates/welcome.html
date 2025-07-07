@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  body {
+      height: 100vh;
+      background: linear-gradient(135deg, #0f0f0f, #1e1e1e, #141d26);
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Rajdhani', sans-serif;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
+    h1 {
+      font-size: 72px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+      color: #ffffff;
+    }
+
+    .enter-button {
+      padding: 14px 40px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      color: #ffffff;
+      background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .enter-button:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Game World</h1>
+  <a href="/games" class="enter-button">Enter</a>
+
+</body>
+</html>
